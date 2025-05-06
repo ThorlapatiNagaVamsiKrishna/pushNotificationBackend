@@ -1,6 +1,6 @@
 const User = require('../Models/userModel')
 const sendOptToMail = require('../nodemailer')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
 const userController = {
